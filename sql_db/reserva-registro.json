@@ -1,0 +1,100 @@
+RESERVA 
+{
+    "id": 4,
+    "registro_cliente": {
+        "id": 4,
+        "nombre": "Beatriz",
+        "apellido": "Luque",
+        "tipo_documento": "DNI",
+        "numero_documento": "70235897",
+        "genero": "F",
+        "edad": 24,
+        "celular": "959 173 185",
+        "correo_electronico": "beatriz@gmail.com"
+    },
+    "reserva_detalle": [
+        {
+            "id": 6,
+            "tipo_habitacion": 5,
+            "precio_total": "600.00",
+            "tiempo": 6,
+            "cantidad": 2
+        },
+        {
+            "id": 7,
+            "tipo_habitacion": 3,
+            "precio_total": "600.00",
+            "tiempo": 3,
+            "cantidad": 1
+        }
+    ],
+    "fecha_ingreso": "2020-04-06",
+    "fecha_salida": "2020-04-09",
+    "hora_llegada": "15:00:00",
+    "estado_reserva": "RESERVADO",
+    "codigo_reserva": "PEKGC7",
+    "cantidad_adulto": 3,
+    "cantidad_nino": 0,
+    "subtotal": "1200.00",
+    "igv": "10.00",
+    "precio_total": "1200.00",
+    "tipo_pago": "TARJETA",
+    "adelanto": "400.00",
+    "fecha_registro": "2020-03-25T10:06:00.421442-05:00"
+}
+
+ registro 
+
+ {
+    "registro_cliente":{
+    	 "id": 4,
+    	 "numero_documento": "70235897"
+    },
+    "registro":{
+    	"reserva": 4,
+	    "cliente": null,
+	    "estado_registro": "RESERVADO",
+	    "tipo_pago": "CONTADO",
+	    "adelanto": "400.00",
+	    "precio_total": "1200.00",
+	    "registros_habitacion": [ 	
+	        {
+	            "habitacion": 9,
+	            "codigo": "204",
+	            "estado_habitacion": "RESERVADO",
+	            "fecha_ingreso": "2020-04-06 15:00:00",
+	            "fecha_salida": "2020-04-09 13:00:0",
+	            "cantidad_adulto":0,
+	            "cantidad_nino":0,
+	            "tiempo":6,
+	            "precio":"300",
+	            "precio_total" :"300"
+	        },
+	        {
+	            "habitacion": 11,
+	            "codigo": "206",
+	            "estado_habitacion": "RESERVADO",
+	            "fecha_ingreso": "2020-04-06 15:00:00",
+	            "fecha_salida": "2020-04-09 13:00:0",
+	            "cantidad_adulto":0,
+	            "cantidad_nino":0,
+	            "tiempo":6,
+	            "precio":"300",
+	            "precio_total" :"300"
+	        },
+	        {
+	            "habitacion": 7,
+	            "codigo": "203",
+	            "estado_habitacion": "RESERVADO",
+	            "fecha_ingreso": "2020-04-06 15:00:00",
+	            "fecha_salida": "2020-04-09 13:00:0",
+	            "cantidad_adulto":0,
+	            "cantidad_nino":0,
+	            "tiempo":3,
+	            "precio":"600",
+	            "precio_total" :"600"
+	        }
+	    ]
+	    
+	    }
+}
